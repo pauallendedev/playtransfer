@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212; /* Negro suave */
+  --foreground: #ffffff; /* Texto principal */
+  --secondary-text: #b3b3b3; /* Texto secundario */
+}
+
+body {
+  @apply bg-primaryBlack text-foreground font-inter;
+  /* Eliminamos font-family: Arial, y usamos la de tailwind.config.js */
+}
